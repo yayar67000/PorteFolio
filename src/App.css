@@ -1,42 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+	--background-color: #7933c3;
+	--background-image: "/public/Images/YAYAR PICTURES RISE & FALL/Yayar_title_Rise_and_Fall._Hyperrealist_view_of_Montreal_the_fo_b6ffc40b-d302-4f0b-b815-fa8e2558fa7a.png";
+	--background-image-2: "/public/Images/YAYAR PICTURES RISE & FALL/Yayar_title_Rise_and_Fall._Hyperrealist_view_of_Montreal_the_fo_b6ffc40b-d302-4f0b-b815-fa8e2558fa7a.png)";
+	--font-family-1: "Roboto", sans-serif;
+	--font-family-2: "Verdana", sans-serif;
+	--font-family-3: "Arizonia";
+	--font-color: #fff;
+	--font-color-2: #371337;
+	--card-color: linear-gradient(90deg, #893a88 0%, #351437 100%);
+	--card-color-2: #c18beb;
 }
